@@ -5,7 +5,9 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 import java.util.Arrays;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 
 public class TitleVerification {
     public static void main(String[] args) throws InterruptedException {
@@ -20,17 +22,17 @@ public class TitleVerification {
         Thread.sleep(3000);
 
 
-//       for (String url: urls){
-//           driver.get(url);
-//           String title = driver.getTitle();
-//     if(urls.get( title)){
-//         urls.get().startsWith( "http://practice.cybertekschool.com");
-//     System.out.println(true);
-//     }else{
-//     System.out.println(false);
-//    }
-//       }
-//        driver.quit();
-//    }
-//}
+        Set<String> unique = new HashSet<>();
+        for (String each:urls) {
+            driver.get(each);
+            unique.add(driver.getTitle());
+        }
+        if (unique.size()==1){
+            System.out.println("They are equal!");
+        } else {
+            System.out.println("They are NOT equal!");
+        }
+        Thread.sleep(3000);
+        driver.quit();
+
     }}

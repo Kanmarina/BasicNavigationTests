@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ad1faccb-fc89-401b-b559-b5e214fd4565" name="Default Changelist" comment="" />
+    <list default="true" id="ad1faccb-fc89-401b-b559-b5e214fd4565" name="Default Changelist" comment="NavigationTests">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cbt/tests/NavigationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cbt/tests/NavigationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cbt/utilities/TitleVerification.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cbt/utilities/TitleVerification.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cbt/utilities/TitleVerification2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cbt/utilities/TitleVerification2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cbt/utilities/TitleVerification3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cbt/utilities/TitleVerification3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/cbt/tests/NavigationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/cbt/tests/NavigationTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/cbt/utilities/TitleVerification.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/cbt/utilities/TitleVerification.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/cbt/utilities/TitleVerification2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/cbt/utilities/TitleVerification2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/cbt/utilities/TitleVerification3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/cbt/utilities/TitleVerification3.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +25,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -22,6 +36,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1YiJangUf7uPv2feuTAU96jEgFG" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -29,6 +44,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -53,8 +69,47 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TitleVerification" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cbt.utilities.TitleVerification" />
+      <module name="BasicNavigationTests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cbt.utilities.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TitleVerification2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.cbt.utilities.TitleVerification2" />
+      <module name="BasicNavigationTests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cbt.utilities.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TitleVerification3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cbt.utilities.TitleVerification3" />
+      <module name="BasicNavigationTests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cbt.utilities.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cbt.utilities.test" />
       <module name="BasicNavigationTests" />
       <extension name="coverage">
         <pattern>
@@ -69,7 +124,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.NavigationTests" />
+        <item itemvalue="Application.TitleVerification" />
+        <item itemvalue="Application.TitleVerification3" />
         <item itemvalue="Application.TitleVerification2" />
+        <item itemvalue="Application.test" />
       </list>
     </recent_temporary>
   </component>
@@ -86,23 +144,31 @@
     </task>
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="NavigationTests" />
+    <option name="LAST_COMMIT_MESSAGE" value="NavigationTests" />
+  </component>
   <component name="WindowStateProjectService">
-    <state width="1237" height="121" key="GridCell.Tab.0.bottom" timestamp="1583868759858">
+    <state x="349" y="0" key="CommitChangelistDialog2" timestamp="1583872046116">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="121" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1583868759858" />
-    <state width="1237" height="121" key="GridCell.Tab.0.center" timestamp="1583868759858">
+    <state x="349" y="0" key="CommitChangelistDialog2/0.0.1280.689@0.0.1280.689" timestamp="1583872046116" />
+    <state width="1237" height="22" key="GridCell.Tab.0.bottom" timestamp="1583872046127">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="121" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1583868759858" />
-    <state width="1237" height="121" key="GridCell.Tab.0.left" timestamp="1583868759858">
+    <state width="1237" height="22" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1583872046127" />
+    <state width="1237" height="22" key="GridCell.Tab.0.center" timestamp="1583872046127">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="121" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1583868759858" />
-    <state width="1237" height="121" key="GridCell.Tab.0.right" timestamp="1583868759858">
+    <state width="1237" height="22" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1583872046127" />
+    <state width="1237" height="22" key="GridCell.Tab.0.left" timestamp="1583872046126">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="121" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1583868759858" />
+    <state width="1237" height="22" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1583872046126" />
+    <state width="1237" height="22" key="GridCell.Tab.0.right" timestamp="1583872046127">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state width="1237" height="22" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1583872046127" />
     <state x="144" y="0" key="SettingsEditor" timestamp="1583421677762">
       <screen x="0" y="0" width="1280" height="689" />
     </state>

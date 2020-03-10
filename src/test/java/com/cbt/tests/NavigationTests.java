@@ -13,13 +13,11 @@ public class NavigationTests {
 
     public static void main(String[] args) throws InterruptedException {
         chromeTest();
-
-
+        fireFoxTest();
+        edgeTest();
     }
 
     public static void chromeTest() throws InterruptedException {
-
-
         driver= BrowserFactory.getDriver("chrome");
         driver.get("https://google.com");
         Thread.sleep(3000);
@@ -32,19 +30,52 @@ public class NavigationTests {
 
         driver.navigate().back();
         Thread.sleep(3000);
-        title = driver.getTitle();
+       String title2 = driver.getTitle();
 
         driver.navigate().forward();
         Thread.sleep(3000);
-        title1= driver.getTitle();
+        String title3= driver.getTitle();
         driver.quit();
     }
-    public static void fireFoxTest(){
-        WebDriverManager.firefoxdriver().setup();
-        WebDriver driver2 = new FirefoxDriver() ;
+    public static void fireFoxTest() throws InterruptedException {
+
+        driver= BrowserFactory.getDriver("firefox");
+        driver.get("https://google.com");
+        Thread.sleep(3000);
+
+        String title = driver.getTitle();
+
+        driver.navigate().to("http://etsy.com");
+        Thread.sleep(3000);
+        String title1=  driver.getTitle()  ;
+
+        driver.navigate().back();
+        Thread.sleep(3000);
+        String title2 = driver.getTitle();
+
+        driver.navigate().forward();
+        Thread.sleep(3000);
+        String title3= driver.getTitle();
+        driver.quit();
     }
-public static void edgeTest(){
-    WebDriverManager.edgedriver().setup();
-    WebDriver driver3= new EdgeDriver();
+public static void edgeTest() throws InterruptedException {
+    driver= BrowserFactory.getDriver("edge");
+    driver.get("https://google.com");
+    Thread.sleep(3000);
+
+    String title = driver.getTitle();
+
+    driver.navigate().to("http://etsy.com");
+    Thread.sleep(3000);
+    String title1=  driver.getTitle()  ;
+
+    driver.navigate().back();
+    Thread.sleep(3000);
+    String title2 = driver.getTitle();
+
+    driver.navigate().forward();
+    Thread.sleep(3000);
+    String title3= driver.getTitle();
+    driver.quit();
 }
 }
